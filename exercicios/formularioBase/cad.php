@@ -20,7 +20,7 @@
 
         $idade = $_GET["idade"] ?? "sem idade";
 
-        echo "<p> Olá, seja bem vindo ao meu site de teste,seu nome é <strong>$nome $sobrenome</strong> E sua idade é de <strong>$idade</strong> anos";
+        echo "<p> Olá, seja bem vindo ao meu site de teste, seu nome é <strong>$nome $sobrenome</strong> E sua idade é de <strong>$idade</strong> anos";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para pagina anterior</a></p>
     </main>
