@@ -6,10 +6,14 @@
     <title>Teste Aritméticos</title>
 </head>
 <body>
-    <h1>Teste Aritméticos</h1>
+    <h1>contador para salario</h1>
     <?php 
-    $conta = sqrt(25);
-    print "o resultado é $conta"
+    $salario = 5000;
+    $salarioMin = 1380;
+    $contador = 0;
+    $conta = intdiv($salario,$salarioMin);
+    $resto = $salario % $salarioMin;
+    print "$conta <br> $resto";
     ?>
 </body>
 </html>
